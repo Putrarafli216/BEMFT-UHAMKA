@@ -1,0 +1,60 @@
+body{
+  background-color: #EAEAEA;
+  color: #2D2D2D;
+  font-size: 14px;
+}
+
+
+li:hover{
+  background-color: rgb(61, 60, 60);
+  transition-delay: .3s;
+  transition: .5s ease-in-out;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 994px){
+  .nav-item{
+    text-align: center;
+  }
+}
+
+.banner{
+  background: url("bege.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 20%;
+  color: #FFF;
+}
+
+.tentang p{
+  font-size: 24px;
+}
+
+.struktur{
+  background-color: rgb(236, 236, 236);
+}
+
+.galeri{
+  background-color: #6c6c6c;
+}
+
+.footer{
+  background-color:#585858;
+
+}
+
+.logo-footer{
+  color: white;
+}
+
+.logo{
+  float: right;
+}
+
+@media screen and (max-width: 994px){
+  .musik{
+    opacity: 50%;
+    justify-items: center;
+    width: 50%;
+  }  
+}
